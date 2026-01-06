@@ -85,6 +85,12 @@ const tools = computed<ToolCategory[]>(() => [
               Mohamed Elkholy
             </c-link>
           </div>
+          <div class="mt-2 op-70">
+            Inspired by
+            <c-link target="_blank" rel="noopener" href="https://it-tools.tech">
+              IT-Tools
+            </c-link>
+          </div>
         </div>
       </div>
     </template>
