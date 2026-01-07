@@ -10,6 +10,7 @@ import { tool as bashCheatsheet } from './bash-cheatsheet';
 import { tool as vimCheatsheet } from './vim-cheatsheet';
 import { tool as tmuxCheatsheet } from './tmux-cheatsheet';
 import { tool as macosCheatsheet } from './macos-cheatsheet';
+import { tool as homebrewCheatsheet } from './homebrew-cheatsheet';
 
 import { tool as textToUnicode } from './text-to-unicode';
 import { tool as safelinkDecoder } from './safelink-decoder';
@@ -97,7 +98,7 @@ import { tool as yamlViewer } from './yaml-viewer';
 export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Cheat Sheets',
-    components: [gitMemo, regexMemo, bashCheatsheet, vimCheatsheet, tmuxCheatsheet, macosCheatsheet],
+    components: [gitMemo, regexMemo, bashCheatsheet, vimCheatsheet, tmuxCheatsheet, macosCheatsheet, homebrewCheatsheet],
   },
   {
     name: 'Crypto',
